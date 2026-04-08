@@ -1,0 +1,114 @@
+🔧 1. Create a Git Repository
+👉 Option A: Local Repository
+Bash
+
+mkdir my-project
+cd my-project
+git init
+👉 Option B: GitHub Repository
+Go to GitHub
+
+Click New Repository
+
+Name it (e.g., my-project)
+
+Click Create
+
+📥 2. Clone Repository
+Bash
+
+git clone https://github.com/username/my-project.git
+cd my-project
+👉 This copies the remote repo to your local system.
+
+✏️ 3. Add & Commit Changes
+Step 1: Create/Edit a file
+Bash
+
+echo "Hello World" > file.txt
+Step 2: Add file to staging
+Bash
+
+git add file.txt
+Step 3: Commit changes
+Bash
+
+git commit -m "Initial commit"
+🚀 4. Push to Remote Repository
+Bash
+
+git push origin main
+👉 Uploads your local commits to GitHub.
+
+🔄 5. Fetch Changes
+Bash
+
+git fetch origin
+👉 Gets updates from remote but does NOT merge.
+
+🔃 6. Pull Changes
+Bash
+
+git pull origin main
+👉 Fetch + Merge (updates your local repo).
+
+🌿 7. Checkout (Switch Branches)
+Create new branch
+Bash
+
+git branch feature-branch
+Switch branch
+Bash
+
+git checkout feature-branch
+👉 Or directly:
+
+Bash
+
+git checkout -b feature-branch
+⏪ 8. Reset (Undo Changes)
+Soft Reset (keeps changes)
+Bash
+
+git reset --soft HEAD~1
+Hard Reset (deletes changes)
+Bash
+
+git reset --hard HEAD~1
+👉 Use carefully ⚠️
+
+❌ 9. Delete
+Delete file
+Bash
+
+git rm file.txt
+git commit -m "Deleted file"
+Delete branch
+Bash
+
+git branch -d feature-branch
+Delete remote branch
+Bash
+
+git push origin --delete feature-branch
+📊 Summary Table
+Command	Purpose
+git clone	Copy repo
+git add	Stage files
+git commit	Save changes
+git push	Upload changes
+git fetch	Get updates
+git pull	Fetch + merge
+git checkout	Switch branches
+git reset	Undo changes
+git rm	Delete files
+
+✅ Mini Workflow Example
+Bash
+
+git clone https://github.com/user/repo.git
+cd repo
+echo "New line" >> file.txt
+git add .
+git commit -m "Updated file"
+git push origin main
