@@ -1,0 +1,32 @@
+Step 1: Open new volume in file explorer
+Step 2: GOTO UBUNTU
+Step 3: Click on VirtualBox
+Step 4: Enter password: 12admin*bnm
+Step 5: Install it
+Step 6: Open OracleVM
+7: Click on new
+8: Give it a name and click next
+9: Hardware:
+            Base Memory: above 5000
+            Processors: 3
+     click next
+10: Click on existing Virtual Hard disk
+   Add folder icon
+   Add symbol
+   GO TO Ubuntu5010
+   Choose
+   Next
+11:Then finish
+12: Click on Settings
+13: GOTO display
+14: Video Memory: Above 90MB
+    Monitor count: 3/4
+    Scale Factor: 150%
+    Enable 3D Acceleration
+15: Click OK
+16: Click Start
+
+
+
+
+
