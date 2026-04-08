@@ -1,0 +1,30 @@
+Task 3: CloudSim Setup and Execution
+Phase 1: Downloading Resources
+1.	Google Search: Search for "cloudsim 3.03".
+2.	Download CloudSim: Click the first link, scroll down to cloudsim 3.03, and under Assets, download the .zip file.
+3.	Extract: Extract all files from the downloaded CloudSim zip.
+4.	Google Search: Search for "apache common math 3.6.1 zip file".
+5.	Locate Binary: Go to the "Index of /common/math/binaries" (the second link).
+6.	Download Math Library: Download commons-math3-3.6.1-bin.zip.
+7.	Extract: Extract all files from the math library zip.
+Phase 2: Organizing Files
+1.	Copy JAR: Open the extracted math library folder and copy the first file (named something like commons-math3-3.6.1).
+2.	Paste to CloudSim: Open your extracted cloudsim folder and paste the copied file into the "jars" folder.
+3.	Launch IDE: Open Eclipse.
+Phase 3: Eclipse Configuration
+1.	Create Project: Create a new Java Project named cloudsim1.
+2.	Set Location: Browse and choose the cloudsim 3.03 folder as the location.
+3.	Working Set: Click on "Add project to working set".
+4.	Finish: Click the Finish button.
+Phase 4: Running and Creating Programs
+1.	Navigate to Examples: On the left-side Project Explorer, navigate through:
+• cloudsim1
+• examples folder
+• org.cloudbus.cloudsim.examples
+• CloudSimExample1.java
+2.	Execute: Save and Run the example.
+3.	Create New Class: To write your own program:
+• Right-click on the package.
+• Select New \rightarrow Class.
+• Give it a name (e.g., classname.java).
+• Write your program.
